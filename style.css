@@ -1,0 +1,239 @@
+body{
+    margin: 0;
+    font-family: monospace;
+    text-align: center;
+}
+
+.sec_main {
+    background: url(./background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.main{
+    background:linear-gradient(to right,rgba(255, 115, 0, 0.971), rgba(255, 0, 0, 0.932));
+    height: 100vh;
+}
+.sec1{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.sec1 .p1{
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: 600;
+}
+.sec1 span{
+    font-weight: lighter;
+    text-transform: capitalize;
+}
+.sec1 ul{
+    display: flex;
+    list-style: none;
+    width: 45vw;
+    justify-content: space-evenly;
+    text-transform: capitalize;
+    font-size: 18px;
+
+}
+.text{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+}
+.p2{
+   padding: 0 300px;
+    margin: auto;
+    color: rgba(240, 248, 255, 0.767);
+}
+.btn{
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    cursor: pointer;   
+}
+.main_{
+    display: flex;
+    margin: auto;
+    padding: 50px;
+}
+
+.main li {
+    cursor: pointer;
+    padding: 10px 15px;
+    transition: all .6s;
+
+}
+
+.main li:hover {
+    color: #fff;
+    background: #000;
+    transition: all .6s;
+}
+.main1{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight:bold;
+    text-align: center;
+}
+.icon {
+    --w:50px;
+    width: var(--w);
+    height: var(--w);
+    background: orange;
+    margin: auto;
+    margin-top: 20px;
+}
+.nature{
+    text-align: left;
+    padding: 30px;
+    display: flex;
+}
+.pp{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 900;
+}
+.pp1 , .pp2{
+    width: 700px;
+}
+.li{
+    padding: 10px;
+}
+.img{
+    background: red;
+    width: 100%;
+    background: url(./aero.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;    
+}
+.pp3{
+    text-transform: capitalize;
+    color: orangered;
+    font-size: 20px;
+    font-weight: bold;
+}
+.nature_a {
+    display: flex;
+}
+
+.nature_a .air {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding: 100px 200px;
+    box-sizing: border-box;
+}
+
+.nature_a .img1 {
+    width: 50%;
+
+}
+.img1{
+    background: url(./sea.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.pp5{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: bold;
+    color: orangered;
+}
+.city{
+    text-align: center;
+    width: 50%;
+    padding: 100px 200px;
+    box-sizing: border-box;
+}
+
+
+.img2{
+    background: url(./bulding.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 500px;
+}
+.nature_b{
+    display: flex;
+}
+
+.nature_b button {
+    margin-bottom: 30px;
+}
+
+.abc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+img {
+    width: 50%;
+}
+
+button {
+    border: none;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    border-radius: 7px;
+    background: black;
+    color: #fff;
+}
+.news{
+    background:linear-gradient(to right,rgb(255, 115, 0), red);
+    height: 200px;
+}
+.news p{
+    text-transform: capitalize;
+    color: rgb(241, 233, 231);
+    font-size: 30px;
+    margin-top: 0;
+    padding-top: 30px;
+}
+
+@media (max-width:992px) {
+
+    img {
+        width: 100%;
+    }
+
+    .sec1,
+    .sec1 ul,
+    .main_,
+    .nature,
+    .nature_a,
+    .nature_b {
+        display: block;
+        
+    }
+    .nature_a .air ,
+    .nature_b .city {
+        width: 100%;
+        padding: 10px 30px;
+    }
+   
+    .pp1, .pp2 {
+    width: inherit;
+}
+
+.p2 {
+    padding: 0 30px;
+}
+
+.abc {
+    height: max-content;
+}
+
+.main {
+    height:inherit;
+}
+
+}
