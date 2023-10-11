@@ -38,7 +38,7 @@ body {
     font-weight: bold;
 }
 .img{
-    background:url(./bg_6.jpg);
+    background:url(../images/bg_6.jpg);
     width: 300px;
     height: 300px;
     border-radius: 50%;
@@ -53,7 +53,7 @@ body {
     text-transform: capitalize;
     font-size: 30px;
     font-weight: bold;
-    color: #fff;
+    color: var(--color2);
     padding-top: 10px;
 }
 .sec2 .btn{
@@ -112,7 +112,7 @@ body {
     padding: 10px 30px;
     font-size: 14px;
     font-weight: 600;
-    color: #fff;
+    color: var(--color2);
     margin-bottom: 100px;
 }
 
@@ -140,7 +140,6 @@ body {
 }
 .sec4 .img1,
 .img2,.img3,.img4,.img5{
-    background: red;
     width: 200px;
     height: 200px;
     border-radius: 50%;   
@@ -149,19 +148,19 @@ body {
 
 
 .sec4 .img1{
-    background: url(./bg_1.jpg);
+    background: url(../images/bg_1.jpg);
 }
 .sec4 .img2{
-    background: url(./bg_2.jpg);
+    background: url(../images/bg_2.jpg);
 }
 .sec4 .img3{
-    background: url(./bg_3.jpg);
+    background: url(../images/bg_3.jpg);
 }
 .sec4 .img4{
-    background: url(./bg_4.jpg);
+    background: url(../images/bg_4.jpg);
 }
 .sec4 .img5{
-    background: url(./bg_5.jpg);
+    background: url(../images/bg_5.jpg);
 }
 
 .sec4 .img {
